@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { Navbar } from "./components/Navbar";
+import MainCard from "./components/MainCard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,6 +9,9 @@ function App() {
   return (
     <div>
       <Navbar />
+      <div className="main__container">
+        <MainCard />
+      </div>
     </div>
   );
 }
