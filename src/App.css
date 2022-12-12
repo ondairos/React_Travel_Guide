@@ -1,7 +1,10 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Titillium Web", sans-serif;
+  background-color: rgb(220, 220, 220);
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  border: 1px solid rgb(56, 56, 56);
 }
 
 /* NAVBAR CSS*/
@@ -28,9 +31,44 @@ body {
 /* ================= */
 
 /* MAIN CARD CSS*/
-.main__container {
-  margin: 0;
-  padding: 0;
+.main__wrapper{
+  background-color: white;
+  height: 100vh;
 }
 
+.main__container {
+  margin: 45px;
+  padding: 5px;
+  border: 1px solid rgb(56, 56, 56);
+}
+
+.main__card {
+  margin: 0;
+  padding: 5px;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.main__card-image {
+  display: absolute;
+  justify-content: left;
+  align-items: left;
+
+}
+
+.main__span {
+
+}
+
+.main__card-title {
+
+}
+
+.main__card-duration {
+
+}
+
+.main__card-description {
+
+}
 /* END MAIN CARD CSS */

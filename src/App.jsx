@@ -7,9 +7,10 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
+    <div className="main__wrapper">
       <Navbar />
       <div className="main__container">
+        <MainCard />
         <MainCard />
       </div>
     </div>
