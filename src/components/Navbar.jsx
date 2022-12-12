@@ -6,7 +6,6 @@ export const Navbar = () => {
     <div className="main__nav">
       <Icon.Map fill="white" />
       <p className="main__title">my travel journal.</p>
-      
     </div>
   );
 };
