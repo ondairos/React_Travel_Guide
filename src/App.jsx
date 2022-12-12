@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { Navbar } from "./components/Navbar";
 import MainCard from "./components/MainCard";
+import { Footer } from "./components/Footer";
 import data from "./data";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <div className="main__container">
         <section>{cards}</section>
       </div>
+      <Footer />
     </div>
   );
 }
