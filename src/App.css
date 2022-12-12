@@ -8,7 +8,7 @@ body {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  border: 1px solid rgb(56, 56, 56);
+  /* border: 1px solid rgb(56, 56, 56); */
 }
 
 /* NAVBAR CSS*/
@@ -37,17 +37,16 @@ body {
 /* MAIN CARD CSS*/
 .main__wrapper {
   background-color: white;
-  height: 100vh;
 }
 
 .main__container {
   margin: 45px;
   padding: 5px;
-  border: 1px solid rgb(56, 56, 56);
+  /* border: 1px solid rgb(56, 56, 56); */
 }
 
 .main__card {
-  margin: 0;
+  margin: 0px 0px 0px 0px;
   padding: 5px;
   display: flex;
   background-color: rgb(255, 255, 255);
@@ -97,5 +96,9 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 150%;
+}
+
+.main__hor-line{
+  margin-bottom: 20px;
 }
 /* END MAIN CARD CSS */
