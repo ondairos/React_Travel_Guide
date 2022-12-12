@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { Navbar } from "./components/Navbar";
 import MainCard from "./components/MainCard";
+import data from "./data";
 
 function App() {
   const [count, setCount] = useState(0);

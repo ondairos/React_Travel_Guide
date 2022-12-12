@@ -1,0 +1,42 @@
+export default [
+    {
+        id: 1,
+        title: "",
+        location: "",
+        googleMapsLink: "",
+        startDate: "",
+        endDate: "",
+        description: "",
+        imageUrl: "",
+    },
+    {
+        id: 1,
+        title: "",
+        location: "",
+        googleMapsLink: "",
+        startDate: "",
+        endDate: "",
+        description: "",
+        imageUrl: "",
+    },
+    {
+        id: 1,
+        title: "",
+        location: "",
+        googleMapsLink: "",
+        startDate: "",
+        endDate: "",
+        description: "",
+        imageUrl: "",
+    },
+    {
+        id: 1,
+        title: "",
+        location: "",
+        googleMapsLink: "",
+        startDate: "",
+        endDate: "",
+        description: "",
+        imageUrl: "",
+    }
+]
