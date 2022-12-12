@@ -1,6 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Titillium Web", sans-serif;
-  background-color: rgb(220, 220, 220);
+  background-color:rgb(23, 23, 23);
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -31,7 +35,7 @@ body {
 /* ================= */
 
 /* MAIN CARD CSS*/
-.main__wrapper{
+.main__wrapper {
   background-color: white;
   height: 100vh;
 }
@@ -45,30 +49,53 @@ body {
 .main__card {
   margin: 0;
   padding: 5px;
-  justify-content: center;
+  display: flex;
   background-color: rgb(255, 255, 255);
+}
+.column {
+  flex: 90%;
+}
+.column__image {
+  flex: 10%;
 }
 
 .main__card-image {
-  display: absolute;
-  justify-content: left;
-  align-items: left;
-
+  margin: 2px 15px 0px 0px;
+  object-fit: cover;
+  width: 180px;
+  height: 268px;
+  border-radius: 10px;
 }
 
-.main__span {
+.main__card-country {
+  display: inline-block;
+  font-size: 0.75rem;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  margin: 0;
+}
 
+.main__card-gmaps {
+  margin-left: 10px;
 }
 
 .main__card-title {
-
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
 }
 
 .main__card-duration {
-
+  font-weight: 700;
+  margin: 0;
 }
 
 .main__card-description {
-
+  max-width: 50rem;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
 }
 /* END MAIN CARD CSS */
