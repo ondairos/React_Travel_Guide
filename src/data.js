@@ -7,7 +7,7 @@ export default [
         startDate: "10 Jan, 2008",
         endDate: "25 Feb, 2008",
         description: "Chios island is crescent or kidney-shaped, 50km long from north to south, and 29km at its widest, covering an area of 842.289km2 .The terrain is mountainous and arid, with a ridge of mountains running the length of the island. The two largest of these mountains, Pelineon (1,297m) and Epos (1,188m), are situated in the north of the island. The center of the island is divided between east and west by a range of smaller peaks, known as Provatas.",
-        imageUrl: "public/chios.jpg",
+        imageUrl: "/chios.jpg",
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export default [
         startDate: "10 Mar, 2010",
         endDate: "30 Mar, 2010",
         description: " Rhodes has a long and impressive history; it’s a place where the strong mediaeval aspect blends with the traditional Greek one. It is also an island with great natural beauty: the lovely beaches face the pine woods on the mountainsides; the mountain villages overlook the seaside towns; and  the archaeological sites, the mediaeval monuments and the cosmopolitan resorts arranged in the traditional style all conspire to make the popularity of this destination so hard to resist, even to a demanding traveller. ",
-        imageUrl: "public/rodos.jpg",
+        imageUrl: "/rodos.jpg",
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export default [
         startDate: "12 Jun, 2002",
         endDate: "28 Jun, 2002",
         description: "Eiffel Tower, Parisian landmark that is also a technological masterpiece in building-construction history. When the French government was organizing the International Exposition of 1889 to celebrate the centenary of the French Revolution, a competition was held for designs for a suitable monument.Eiffel’s concept of a 300-metre (984-foot) tower built almost entirely of open-lattice wrought iron aroused amazement, skepticism, and no little opposition on aesthetic grounds. When completed, the tower served as the entrance gateway to the exposition.",
-        imageUrl: "public/Eiffel.jpg",
+        imageUrl: "/Eiffel.jpg",
     },
     {
         id: 4,
@@ -37,6 +37,6 @@ export default [
         startDate: "28 Apr, 2016",
         endDate: "14 May, 2016",
         description: "The Acropolis of Athens is an ancient citadel located on a rocky outcrop above the city of Athens and contains the remains of several ancient buildings of great architectural and historical significance, the most famous being the Parthenon. The word acropolis is from the Greek words ἄκρον (akron, highest point, extremity) and πόλις (polis, city).The term acropolis is generic and there are many other acropoleis in Greece.",
-        imageUrl: "public/acropolis.jpg",
+        imageUrl: "/acropolis.jpg",
     }
 ]
