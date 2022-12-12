@@ -1,9 +1,28 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 /* NAVBAR CSS*/
+.main__nav {
+  background-color: rgb(244, 76, 76);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__logo{
+  padding: 5px;
+}
+
+.main__title{
+  margin-left: 10px;
+  font-weight: 600;
+  display: flex;
+  font-size: 18px;
+  color: white;
+}
 
 
 /* END NAVBAR CSS */
